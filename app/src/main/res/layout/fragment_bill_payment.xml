@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context="com.vasistha.bankingsystem.fragments.BillPayment">
+
+    <Spinner
+        android:id="@+id/billerName"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/billers">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/customerBillID"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Customer ID*" />
+
+    <EditText
+        android:id="@+id/billAmount"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount*"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/billPayButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#a2b5db"
+        android:text="PAY"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+</LinearLayout>

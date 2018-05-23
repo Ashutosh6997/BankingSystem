@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.vasistha.bankingsystem.Activities.SignUpActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ProgressBar
+            android:id="@+id/signingUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dip">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Create Login"
+                    android:textColor="#000"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip"
+                    android:background="#000" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email ID*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/userEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="John1903@domain.com"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="John1903"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Personal Information"
+                    android:textColor="#000"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip"
+                    android:background="#000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/NameSignature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:entries="@array/titles">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:paddingTop="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/FirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="John"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Middle Name(Optional)"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/MiddleName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Von"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/LastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Neumann"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/CustomerGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dip"
+                    android:entries="@array/genders">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:paddingTop="8dip">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No.*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/Mobile_No"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="10-digit Mobile Number"
+                    android:inputType="phone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dip"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="8dip">
+
+                    <Spinner
+                        android:id="@+id/birthDay"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/dates">
+                    </Spinner>
+
+                    <Spinner
+                        android:id="@+id/birthMonth"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/months">
+                    </Spinner>
+
+                    <Spinner
+                        android:id="@+id/birthYear"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/years">
+                    </Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:paddingTop="8dip">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address*"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="City/District/State/Country"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/SignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dip"
+                android:background="#a2b5db"
+                android:text="SIGN UP"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

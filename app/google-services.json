@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54930520181",
+    "firebase_url": "https://bankingsystem-a29af.firebaseio.com",
+    "project_id": "bankingsystem-a29af",
+    "storage_bucket": "bankingsystem-a29af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54930520181:android:ee34d59351ddd724",
+        "android_client_info": {
+          "package_name": "com.vasistha.bankingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54930520181-euat359t3rdn97cgegg0gskffrsrgg3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vasistha.bankingsystem",
+            "certificate_hash": "dcf52c5aa437dfc0c3f325c22eaa92b9f20b7d8c"
+          }
+        },
+        {
+          "client_id": "54930520181-k6uokask6f4oa3ih775rkreclhgoal0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhR_fDdFA1smF9eGamOxT_6W6wV4PZ6vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54930520181-k6uokask6f4oa3ih775rkreclhgoal0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

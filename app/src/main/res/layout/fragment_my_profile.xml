@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.vasistha.bankingsystem.fragments.MyProfile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Customer Email-ID"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/customerEmailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Customer Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/customerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Gender"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/customerDisplayGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Date of Birth"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/customerDateofBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Mobile Number"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/customerMobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Address"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/customerAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

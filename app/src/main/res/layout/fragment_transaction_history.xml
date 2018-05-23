@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context="com.vasistha.bankingsystem.fragments.TransactionHistory">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginBottom="8dp">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Date"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <TextView
+                android:layout_column="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="Credit"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <TextView
+                android:layout_column="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="Debit"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <TextView
+                android:layout_column="3"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="Balance"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:background="#000" />
+
+    <ListView
+        android:id="@+id/transactionDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
